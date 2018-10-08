@@ -1,0 +1,42 @@
+body {
+	
+	margin:0; 
+	padding:0; 
+	line-height: 1.4em; 
+	word-spacing:1px; 
+	letter-spacing:0.2px; 
+	font: 13px Arial, Helvetica,"Lucida Grande", serif; color: #000;
+	color: black;
+}
+
+header, nav, footer {
+	display: none;
+}
+
+.cal-icon, .container, .meet-image, img {
+	visibility: hidden;
+}
+
+.meet-text, .cal-text, .discover-text{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.text-mentor, .text-mentor-process{
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar-mentor, .button{
+	display: none;
+}
+
+p, .sidebar-caden-text{
+	color: black;
+	letter-spacing: 0.2px;
+	line-height: 1.4em;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}

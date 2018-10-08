@@ -1,0 +1,556 @@
+/* * Log in for Homepage * */
+
+.login {
+    z-index: 100;
+    position: absolute;
+    width: 100px;
+    left: -40px;
+}
+
+/* * * * Navigation * * * */
+
+    .navigation {
+        border:1px solid #ccc;
+        border-width:1px 0;
+        list-style:none;
+        margin:0;
+        padding:0;
+        text-align:left;
+        background-color: #5CAFA8;
+    }
+    .navigation li{
+        display:inline;
+    }
+    .navigation a{
+        display: inline-block;
+        padding: 5px 31px 10px 80px;
+        text-decoration: none;
+        letter-spacing: 3.0px;
+        font-size: 20px;
+        font-family: "HelveticaNeue-Medium";
+        color: #FFF;
+    }
+
+    .navigation a:hover {
+        color: #CBCBCB; 
+    }
+
+/* * * * Nav2 Top Log In * * * */
+
+    .nav2 {
+        float: right;
+        position: relative;
+        left: -53px;
+   }
+
+    .nav2 a {
+        text-decoration: none;
+        font-family: "HelveticaNeue-Medium";
+        color: #FFF;
+        letter-spacing: 2px;
+        font-size: 20px;
+
+    }
+
+    .nav2 li {
+        list-style-type: none;
+    }
+
+    .nav2 a:hover {
+        color: #FF5A5F;
+    }
+
+/* * * * Discover * * * */
+
+    .photo {
+        display: block;
+        max-width: 150px;
+        height: 150px;
+        border-radius: 150px;
+    }
+
+    .container ul li {
+        list-style-type: none;
+    }
+
+    .container {
+        float: left;
+    }
+
+    .faces {
+        float: left;
+    }
+
+
+    p {
+        font-family: "HelveticaNeue-Medium";
+        font-size: 18px;
+        color: #5CAFA8;
+        letter-spacing: 2.09px;
+        line-height: 40px;
+        clear: both;
+        padding-left: 20%;
+    }
+
+/* * * * Schedule Hangout * * * */
+
+    .cal-icon {
+        display: block;
+        max-width: 345px;
+    }
+
+    .schedule {
+        padding-left: 38%;
+        position: relative;
+
+    }
+
+    .cal-text {
+        font-family: "HelveticaNeue-Medium";
+        font-size: 18px;
+        color: #5CAFA8;
+        letter-spacing: 2.09px;
+        padding-left: 65px;
+    }
+
+/* * * * Meet Your Mentor * * * */
+
+    .meet-image {
+        display: block;
+        max-width: 310px;
+        height: 310px;
+        border-radius: 150px;
+    }
+
+    .meet {
+        padding-left: 70%;
+        margin-top: -28%;
+    }
+
+    .meet-text {
+        font-family:"HelveticaNeue-Medium";
+        font-size: 18px;
+        color: #5CAFA8;
+        letter-spacing: 2.09px;
+        line-height: 50px;
+        padding-left: 60px;
+    }
+
+/* * * * Footer * * * */
+
+    .site-footer {
+        clear: both;
+        min-height: 400px;
+        background: #5CAFA8;
+        border-top: 1px solid #5CAFA8;
+        text-align: center;
+    }
+
+    .social-icon {
+        width: 30px;
+        height: 30px;
+        margin: 99px 37px;
+}
+
+
+/* * * * Our Story * * * */
+    
+    .group-photo {
+        width: 100%;
+    }
+
+    .who {
+        padding-left: 19%;
+        letter-spacing: 5px;
+        font-family: "HelveticaNeue-Medium";
+        color: #FF5A5F;
+        font-size: 36px;
+    }
+
+    .main { /*635px*/
+        float: left;
+        width: 45.612245%;
+        padding: 3.061224% 1.530612%;
+        min-height: auto;
+    }
+
+    .sidebar { /*345px*/
+        float: left;
+        width: 40.612245%;
+        padding: 10.061224% 0.530612%;
+    }
+
+
+
+/* * * * * * * Form * * * * * * * */
+
+    .contactform label {
+        float: none;
+        margin-right: 1.05em;
+        width: 7em;
+        color: #376964;
+        font-family: "HelveticaNeue-Medium";
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .contactform div {
+        margin: .5em 0;
+        clear: both;
+    }
+
+    .contactform legend {
+        font-weight: normal;
+        letter-spacing: 3px;
+        font-size: 18px;
+        color: #FF5A5F;
+        font-family: "HelveticaNeue-Medium";
+    }
+
+    .contactform fieldset {
+        background: #eef7f6;
+        margin-bottom: 2.1em;
+    }
+
+    .contactform fieldset fieldset {
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contactform fieldset fieldset  legend {
+        text-align: left;
+        width: 30em;
+        float: left;
+        padding-left: 0px;
+        margin-bottom: 0.5em;
+        margin-top: 1.5em;
+        color: #376964;
+        font-family: "HelveticaNeue-Medium";
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .contactform  input[type="text"], .assignment-form textarea {
+        width: 15em;
+    }
+
+    .contactform textarea {
+        height: 10em;
+        width: 40em;
+    }
+
+    .contactform input[type="submit"] {
+        background: #FF5A5F;
+        color: #fff;
+        font-weight: bold;
+        padding: 1em;
+        letter-spacing: 0.0825em;
+        border: 2px solid #fff;
+        font-family: "HelveticaNeue-Medium";
+    }
+
+    .contactform .required {
+        font-weight: bold;
+        color: red;
+    }
+
+    .main-mentor {
+        float: left;
+        width: 41.673469%;
+        padding: 5.061224%;
+        min-height: auto;
+    }
+
+    .sidebar-mentor {
+        float: left;
+        width: 36.612245%;
+        padding: 3.061224% 0.530612%;
+    }
+
+    .text-mentor {
+        font-family: "HelveticaNeue-Medium";
+        font-size: 16px;
+        color: #5CAFA8;
+        letter-spacing: 1.09px;
+        line-height: 35px;
+        clear: both;
+        padding-left: 17%; 
+        text-align: justify;  
+    }
+
+    .text-mentor-process{
+        font-family: "HelveticaNeue-Medium";
+        font-size: 16px;
+        color: #FF5A5F;
+        letter-spacing: 1.09px;
+        line-height: 35px;
+        clear: both;
+        padding-left: 17%; 
+        text-align: justify; 
+    }
+
+/* * * * Meet Your Sibling * * * */
+
+
+    .container-faces ul li {
+        list-style-type: none;
+        margin: 42px -16px;
+    }
+
+    .container-faces {
+        float: left;
+        margin: 21px 105px 21px 11px;
+    }
+
+    .sibling-faces {
+        float: left;
+    }
+
+    .photo-sibling {
+        display: block;
+        max-width: 185px;
+        height: 185px;
+        border-radius: 156px;
+    }
+
+    .sibling-text {
+        font-family: "HelveticaNeue-Medium";
+        font-size: 18px;
+        color: #5CAFA8;
+        letter-spacing: 1.09px;
+        line-height: 49px;
+        clear: both;
+        padding-left: 16%;
+        text-decoration: none;
+    }
+
+    .sibling-faces a:hover {
+        /*color: #CBCBCB;*/ 
+        color:#FF5A5F;
+    }
+
+
+/* * * * Caden * * * */
+
+    .photo-sibling-caden {
+        display: block;
+        max-width: 340px;
+        height: 340px;
+        border-radius: 164px;
+        margin: -5px 0px 0px 121px;
+        }
+    .sidebar-caden {
+        float: left;
+        width: 46.612245%;
+        padding: 12px 0px 0px 0px;
+    }
+
+    .sidebar-caden-text {
+        font-family: "HelveticaNeue-Medium";
+        font-size: 16px;
+        color: #5CAFA8;
+        letter-spacing: 2.09px;
+        line-height: 33px;
+        clear: both;
+        padding-left: 20%;
+        text-align: justify;
+    }
+
+    .btn-style{
+        width: 135px;
+        border: solid 0px #d94256;
+        border-radius: 10px;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #d94256;
+        padding: 12px 15px 12px 15px;
+
+    }
+
+    .btn-text {
+        font-family: "HelveticaNeue-Medium";
+        color: #ffffff;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    .button {
+        padding-left: 118px;
+        margin-bottom: 30px
+    }
+
+    .btn-text:hover {
+        color: #b3b3b3;
+    }
+
+/* * * * Log In * * */
+
+    table, th, td {
+        border: 1px solid gray;
+        border-collapse: collapse;
+        padding: 5px
+
+    }
+
+    table {
+        margin-bottom: 5%;
+        margin-top: 5%;
+        margin-left:auto; 
+        margin-right:auto;
+    }
+
+    th {
+        letter-spacing: 1.09px;
+        font-size: 18px;
+        font-family: "HelveticaNeue-Medium";
+        color: #5CAFA8;
+        padding: 7px 175px 10px 10px;
+        text-align: left;
+    }
+
+    td {
+        letter-spacing: 1.09px;
+        font-size: 15px;
+        font-family: "HelveticaNeue-Medium";
+        color: #d0d0d0;
+        padding: 7px 175px 10px 10px;
+        text-align: left;
+    }
+    
+    .empty {
+        border: 0;
+    }
+
+    table {
+        width: 25%;
+        border: 0;
+    }
+
+     .btn-style-login{
+            border: solid 0px #d94256;
+            border-radius: 10px;
+            font-size: 20px;
+            color: #ffffff;
+            background-color: #d94256;
+            padding: 12px 15px 12px 15px;
+
+        }
+
+    .btn-style {
+        width: 135px;
+    }
+
+    .btn-text {
+        color: #fff;
+        font-family: "HelveticaNeue-Medium";
+        text-decoration: none;
+    }
+
+    .btn-text:hover {
+            color: #b3b3b3;
+        }
+
+/* * * * * * * Responsive * * * * * */
+
+    img, iframe {
+          max-width: 100%;
+          height: auto;
+    }
+
+
+    @media only screen and (max-width: 400px) {
+        .meet {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .schedule, .container2 {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .main-mentor, .sidebar, .main, .content2 {
+        float: none;
+        width: auto;
+        }
+
+        .sidebar-mentor, .sidebar-caden {
+            width: 91.612245%;
+        }
+
+    }
+
+@media only screen and (max-width: 550px){
+
+       .sidebar-mentor, .sidebar-caden {
+            width: 91.612245%;
+        } 
+    }
+
+@media only screen and (max-width: 550px) {
+        .main-mentor, .sidebar, .main, .content2, .sidebar-caden {
+        float: none;
+        width: auto;
+        }
+
+        .sidebar-mentor {
+            width: 91.612245%;
+        }
+    }
+
+    @media only screen and (max-width: 720px) {
+        .main-mentor, .sidebar, .main, .content2, .sidebar-caden{
+        float: none;
+        width: auto;
+    }
+
+
+/* * * * * * * Print CSS * * * * * */
+
+
+ /* @media print {
+       
+        body {
+    
+        margin:0; 
+        padding:0; 
+        line-height: 1.4em; 
+        word-spacing:1px; 
+        letter-spacing:0.2px; 
+        font: 13px Arial, Helvetica,"Lucida Grande", serif; color: #000;
+        color: black;
+    }
+
+    header, nav, footer {
+        display: none;
+    }
+
+    .cal-icon, .container, .meet-image, img {
+        visibility: hidden;
+    }
+
+    .meet-text, .cal-text, .discover-text{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .text-mentor, .text-mentor-process{
+        margin: 0;
+        padding: 0;
+    }
+
+    .sidebar-mentor, .button{
+        display: none;
+    }
+
+    p, .sidebar-caden-text{
+        color: black;
+        letter-spacing: 0.2px;
+        line-height: 1.4em;
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+    }
+}*/

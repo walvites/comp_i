@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Become a Brother</title>
+	<meta name="author" content="Zhane Alvites">
+	<meta name="description" content="Online application to become a brother">
+
+	<!-- meta tag for responsive styles -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/print.css" type="text/css" media="print" />
+	
+</head>
+
+<body>
+	<header class="head-index">
+		<nav class="nav2">
+			<span class='login'>
+				<a href="login.html">Log In</a>
+			</span>
+		</nav>
+		<!-- <span class="head-title-become">Become A Brother</span> -->
+		<img src="images/james2.jpg" alt="james">
+
+	</header>
+
+	 <nav class="navigation">
+        <ul>
+            <li><a href="final.php">How It Works</a></li>
+            <li><a href="ourstory.php">Our Story</a></li>
+            <li><a href="oursiblings.php">Our Brothers</a></li>
+            <li><a href="index.php">Become a Brother</a></li>
+        </ul>
+    </nav>
+
+	<main class="main-mentor">
+		<form class="contactform" method="post" action="process.php">
+
+	<fieldset>
+ 		<legend>Contact Information</legend>
+  
+  		<label for="name">Name:</label>
+  		<input type="text" id="name" name="name">
+ 
+  		<label for="email">Email:</label>
+ 	 	<input type="text" id="email" name="email">
+
+ 	</fieldset>
+
+	<fieldset>
+		<legend>Are you available for an online interview? </legend>
+	     
+	    	<label for="yes">Yes</label>
+	   			<input type="radio" name="urgent" id="yes" value="yes">
+	     
+	    	<label for="no">No</label>
+	    		<input type="radio" name="urgent" id="no" value="no">
+
+
+	    <fieldset>
+
+			  <legend>If so, which video conferencing app do you prefer? </legend>
+			 
+			  	<label for="facetime">FaceTime</label>
+			  		<input type="checkbox" name="app[]" id="facetime" value="facetime">
+			 
+			 	 <label for="googlehangout">Google Hangout</label>
+			  		<input type="checkbox" name="app[]" id="googlehangout" value="googlehangout">
+			 
+			  	<label for="skype">Skype</label>
+			  		<input type="checkbox" name="app[]" id="skype" value="skype">
+
+			  	<label for="oovo">OoVoo</label>
+			  		<input type="checkbox" name="app[]" id="oovoo" value="oovoo">
+
+		</fieldset>		
+	     
+	</fieldset>
+   
+  
+<fieldset>
+ 
+	<legend>Please Tell Us About Yourself</legend>
+ 
+ 	<label for="you">Are you a trans* person yourself?</label>
+  		
+  		<select name="you" id="you">
+   
+   		 	<option value="no">No</option>
+   		 	<option value="yes">Yes</option>
+
+ 		 </select>
+ 
+<br>
+<br>
+ 
+  	<label for="comments">Please explain to us why you want to be a brother</label>
+  
+<br>
+<br>
+
+  	<textarea name="comments" id="comments"></textarea>
+ 
+</fieldset>
+
+<br>
+ 
+<input type="submit" value="submit">
+
+</form>
+	
+
+</main>
+
+
+<aside class="sidebar-mentor">
+	<div class ="text-mentor-process">
+		How it works:
+		<ol>
+			<li> Send your application</li>
+			<li> Online Interview</li>
+			<li> Mentor Session Mock-trial</li>
+			<li> Onboarded</li>
+		</ol>
+	</div>
+	<div class ="text-mentor">	
+		If you have not been picked to be a brother, do not be discouraged and apply again. We are always accepting mentor applications. As a organization that prides itself on encompassing diversity, we try our best to encompass a diverse range of brothers. If, however, our current brothers do not fit your needs and know someone that does, please refer them. We would love to consider them. 
+	</div>
+
+</aside>
+	
+	<!-- <footer class="site-footer">
+
+		<a href="https://twitter.com/zhanealvites">
+			<img src = "images/twitter.jpg" alt="Twitter Logo" class="social-icon">
+		</a>
+
+		<a href="https://www.facebook.com/z.alvites">
+			<img src = "images/facebook.jpg" alt="Facebook Logo" class="social-icon">
+		</a> 
+
+		<a href="https://www.youtube.com/channel/UCD2ZJ0ub7lVFWXMV-QHxR9w">
+			<img src = "images/tube.jpg" alt="YouTube Logo" class="social-icon">
+		</a>
+
+		<a href="https://www.instagram.com/el_zhane/">
+			<img src = "images/insta.jpg" alt="YouTube Logo" class="social-icon">
+		</a> 
+
+	</footer> -->
+	<?php include('includes/footer.php');?>
+</body>
+
+</html>

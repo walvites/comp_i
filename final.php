@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>MentorMeet</title>
+	<meta name="author" content="Zhane Alvites">
+	<meta name="description" content="Website for transperson to have a mentor in their transition">
+
+	<!-- meta tag for responsive styles -->
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/responsiveslides.css">
+
+	<link rel="stylesheet" href="styles/print.css" type="text/css" media="print" />
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+  	 <script src="js/responsiveslides.min.js"></script>
+
+  	 <script>
+		  $(function() {
+		    $(".rslides").responsiveSlides();
+		  });
+	</script>
+
+</head>
+
+<body>
+
+	
+	<header>
+		
+		<nav class="nav2">
+			<span class='login'>
+				<a href="login.php">Log In</a>
+			</span>
+		</nav>
+
+		<ul class="rslides">
+      		<li>
+				<img src="images/pic1.jpg" alt="transguy">
+			</li>
+
+      		<li>
+      			<img src="images/caden.jpg" alt="caden">
+      		</li>
+
+      		<li>
+      			<img src="images/mitch.jpg" alt="mitch">
+      		</li>
+
+    	</ul>
+
+	</header>
+
+	<nav class="navigation">
+        <ul>
+            <li><a href="final.php">How It Works</a></li>
+            <li><a href="ourstory.php">Our Story</a></li>
+            <li><a href="oursiblings.php">Our Brothers</a></li>
+            <li><a href="index.php">Become a Brother</a></li>
+        </ul>
+    </nav>
+	
+
+	<div class="content">
+
+	<div class="content2">
+		<div class="faces">
+			<div class="container">
+				<ul>
+					<li><img src="images/jacob.jpg" alt ="photograph of jacob" class="photo"></li>
+					<li><img src="images/cayden.jpg" alt ="photograph of cayden" class="photo"></li>
+				</ul>
+			</div>
+
+			<div class="container">
+				<ul class="container2">
+					<li><img src="images/cait.jpg" alt ="photograph of cait" class="photo"></li>
+					<li><img src="images/james.jpg" alt ="photograph of james" class="photo"></li>
+				</ul>
+			</div>
+
+			<p class="discover-text">Discover People Like You</p>
+
+		</div>
+
+
+		<div class="schedule">
+			<img src="images/calendar.jpg" alt="calendar icon" class="cal-icon">
+			<span class="cal-text">Schedule A Hangout</span>
+		</div>
+
+		
+		<div class="meet">
+			<img src="images/levi2.jpg" alt="photograph of levi" class="meet-image">
+			<span class="meet-text">Meet Your Brother</span>
+		</div>
+
+
+		</div>
+	</div>
+		
+	<!-- <footer class="site-footer">
+
+		<a href="https://twitter.com/zhanealvites">
+			<img src = "images/twitter.jpg" alt="Twitter Logo" class="social-icon">
+		</a>
+
+		<a href="https://www.facebook.com/z.alvites">
+			<img src = "images/facebook.jpg" alt="Facebook Logo" class="social-icon">
+		</a> 
+
+		<a href="https://www.youtube.com/channel/UCD2ZJ0ub7lVFWXMV-QHxR9w">
+			<img src = "images/tube.jpg" alt="YouTube Logo" class="social-icon">
+		</a>
+
+		<a href="https://www.instagram.com/el_zhane/">
+			<img src = "images/insta.jpg" alt="YouTube Logo" class="social-icon">
+		</a> 
+	</footer> -->
+
+	<?php include('includes/footer.php');?>
+
+
+</body>
+
+</html>
